@@ -12,8 +12,8 @@ It is designed for GitHub presentation with quick-links, badges, and collapsible
 ![RAM](https://img.shields.io/badge/RAM-64GB_DDR5_6000-blue)
 ![Storage](https://img.shields.io/badge/Storage-7TB-purple)
 ![OS](https://img.shields.io/badge/OS-Windows%2011%2025H2-lightgrey)
-![CI](https://github.com/ThatGuySM/G3-ROG-ACTUAL/actions/workflows/ci.yml/badge.svg)
-[![Release](https://img.shields.io/github/v/release/ThatGuySM/G3-ROG-ACTUAL?display_name=tag)](https://github.com/ThatGuySM/G3-ROG-ACTUAL/releases/tag/v1.1.0)
+![CI](https://github.com/ThatGuySM/g3ROG-actual/actions/workflows/ci.yml/badge.svg)
+[![Release](https://img.shields.io/github/v/release/ThatGuySM/g3ROG-actual?display_name=tag)](https://github.com/ThatGuySM/g3ROG-actual/releases/tag/v1.1.0)
 
 ---
 
@@ -22,15 +22,15 @@ It is designed for GitHub presentation with quick-links, badges, and collapsible
 This repo is a **published system snapshot**, not a live telemetry feed.
 The current published markdown snapshot was refreshed on **April 15, 2026**.
 The downloadable PDF in `docs/` was regenerated from the same 2026 markdown snapshot.
-The current packaged release is [`v1.1.0`](https://github.com/ThatGuySM/G3-ROG-ACTUAL/releases/tag/v1.1.0).
+The current packaged release is [`v1.1.0`](https://github.com/ThatGuySM/g3ROG-actual/releases/tag/v1.1.0).
 
 ## Latest Audit
 
 - [Latest audit entrypoint](docs/LATEST.md)
 - [Documentation hub](docs/README.md)
-- [System health report](docs/G3-ROG-ACTUAL_System_Health_Report.md)
-- [PDF report](docs/G3-ROG-ACTUAL_System_Health_Report.pdf)
-- [Battlestation spec sheet](docs/G3-ROG-ACTUAL_Battlestation_Spec_Sheet.md)
+- [System health report](docs/g3ROG-actual_System_Health_Report.md)
+- [PDF report](docs/g3ROG-actual_System_Health_Report.pdf)
+- [Battlestation spec sheet](docs/g3ROG-actual_Battlestation_Spec_Sheet.md)
 - [Visual gallery](docs/GALLERY.md)
 - [BIOS profile notes](bios/g3rog_actual_bios_full_profile.md)
 

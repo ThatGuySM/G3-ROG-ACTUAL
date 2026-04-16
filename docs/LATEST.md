@@ -11,9 +11,9 @@ Use this page in the README and external links so the repo can evolve without br
 
 ## Current Links
 
-- [Markdown system health report](G3-ROG-ACTUAL_System_Health_Report.md)
-- [PDF system health report](G3-ROG-ACTUAL_System_Health_Report.pdf)
-- [Battlestation spec sheet](G3-ROG-ACTUAL_Battlestation_Spec_Sheet.md)
+- [Markdown system health report](g3ROG-actual_System_Health_Report.md)
+- [PDF system health report](g3ROG-actual_System_Health_Report.pdf)
+- [Battlestation spec sheet](g3ROG-actual_Battlestation_Spec_Sheet.md)
 - [Visual gallery](GALLERY.md)
 - [BIOS profile notes](../bios/g3rog_actual_bios_full_profile.md)
 - [Docs hub](README.md)

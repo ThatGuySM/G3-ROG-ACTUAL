@@ -1,7 +1,7 @@
 [CmdletBinding()]
 param(
-    [string]$InputMarkdown = "docs/G3-ROG-ACTUAL_System_Health_Report.md",
-    [string]$OutputPdf = "docs/G3-ROG-ACTUAL_System_Health_Report.pdf"
+    [string]$InputMarkdown = "docs/g3ROG-actual_System_Health_Report.md",
+    [string]$OutputPdf = "docs/g3ROG-actual_System_Health_Report.pdf"
 )
 
 $ErrorActionPreference = "Stop"
@@ -19,7 +19,7 @@ Set-Location $repoRoot
 
 $inputPath = Resolve-RepoPath $InputMarkdown $repoRoot
 $outputPath = Resolve-RepoPath $OutputPdf $repoRoot
-$tempHtml = Join-Path $env:TEMP "G3-ROG-ACTUAL_System_Health_Report.generated.html"
+$tempHtml = Join-Path $env:TEMP "g3ROG-actual_System_Health_Report.generated.html"
 $edgePath = "C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
 
 if (-not (Test-Path $inputPath -PathType Leaf)) {

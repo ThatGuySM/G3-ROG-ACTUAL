@@ -7,7 +7,7 @@ These visuals support the written report without trying to replace it.
 
 - Snapshot date: 2026-04-15
 - Focus: battlestation presentation, network validation, and public-facing proof points
-- Primary report: [G3-ROG-ACTUAL_System_Health_Report.md](G3-ROG-ACTUAL_System_Health_Report.md)
+- Primary report: [g3ROG-actual_System_Health_Report.md](g3ROG-actual_System_Health_Report.md)
 
 ## Repo Social Preview
 

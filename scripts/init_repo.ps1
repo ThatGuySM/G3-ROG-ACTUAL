@@ -1,5 +1,5 @@
 Param(
-    [string]$RepoName = "G3-ROG-ACTUAL",
+    [string]$RepoName = "g3ROG-actual",
     [string]$GitHubUser = "ThatGuySM",
     [switch]$ForceHttps,
     [switch]$AutoCommit
@@ -16,7 +16,7 @@ if (-not $hasCommit -and $hasChanges -and -not $AutoCommit) {
   Msg "No initial commit exists yet. Commit manually or rerun with -AutoCommit." Yellow
   exit 1
 }
-if ($hasChanges -and $AutoCommit) { git add .; git commit -m "Initial commit: G3-ROG-ACTUAL v1.0.0" | Out-Null }
+if ($hasChanges -and $AutoCommit) { git add .; git commit -m "Initial commit: g3ROG-actual v1.0.0" | Out-Null }
 $ssh = "git@github.com:$GitHubUser/$RepoName.git"
 $https = "https://github.com/$GitHubUser/$RepoName.git"
 $remote = if ($hasSSH -and -not $ForceHttps) { $ssh } else { $https }
@@ -29,5 +29,5 @@ if ($hasGh) {
   Read-Host
 }
 git push -u origin main
-if (-not ((git tag) -contains "v1.0.0")) { git tag v1.0.0 -m "Launch: G3-ROG-ACTUAL v1.0.0"; git push --tags }
+if (-not ((git tag) -contains "v1.0.0")) { git tag v1.0.0 -m "Launch: g3ROG-actual v1.0.0"; git push --tags }
 Msg "Done. https://github.com/$GitHubUser/$RepoName" Green

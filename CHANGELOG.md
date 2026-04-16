@@ -32,7 +32,7 @@ All notable changes to this project will be documented in this file.
 - `docs/LATEST.md` as a stable entrypoint for the latest published audit
 - `docs/README.md` and `docs/archive/README.md` for documentation navigation
 - `docs/drafts/README.md` and a scaffolded 2026 draft workflow
-- `docs/G3-ROG-ACTUAL_Battlestation_Spec_Sheet.md` as a tracked public spec sheet
+- `docs/g3ROG-actual_Battlestation_Spec_Sheet.md` as a tracked public spec sheet
 - `docs/templates/system_health_report_template.md` for future report creation
 - `logs/audits/2026-04-15/` as the sanitized local audit evidence set for the published 2026 snapshot
 - `scripts/collect_system_audit.ps1`, `scripts/export_report_pdf.ps1`, `scripts/new_audit_report.ps1`, `scripts/validate_repo.ps1`, `.pre-commit-config.yaml`, and `.yamllint.yml`

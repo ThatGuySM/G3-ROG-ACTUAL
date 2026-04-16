@@ -22,9 +22,9 @@ $requiredFiles = @(
     "CHANGELOG.md",
     "docs/README.md",
     "docs/LATEST.md",
-    "docs/G3-ROG-ACTUAL_System_Health_Report.md",
-    "docs/G3-ROG-ACTUAL_System_Health_Report.pdf",
-    "docs/G3-ROG-ACTUAL_Battlestation_Spec_Sheet.md",
+    "docs/g3ROG-actual_System_Health_Report.md",
+    "docs/g3ROG-actual_System_Health_Report.pdf",
+    "docs/g3ROG-actual_Battlestation_Spec_Sheet.md",
     "docs/archive/README.md",
     "docs/drafts/README.md",
     "docs/templates/system_health_report_template.md",
@@ -60,19 +60,19 @@ foreach ($path in $requiredDirs) {
 $readme = Get-Content "README.md" -Raw
 $docsHub = Get-Content "docs/README.md" -Raw
 $latest = Get-Content "docs/LATEST.md" -Raw
-$report = Get-Content "docs/G3-ROG-ACTUAL_System_Health_Report.md" -Raw
+$report = Get-Content "docs/g3ROG-actual_System_Health_Report.md" -Raw
 
 $readmeChecks = @(
     "Snapshot Notice",
     "[Latest audit entrypoint](docs/LATEST.md)",
     "[Documentation hub](docs/README.md)",
-    "[Battlestation spec sheet](docs/G3-ROG-ACTUAL_Battlestation_Spec_Sheet.md)",
+    "[Battlestation spec sheet](docs/g3ROG-actual_Battlestation_Spec_Sheet.md)",
     "[BIOS profile notes](bios/g3rog_actual_bios_full_profile.md)"
 )
 
 $docsHubChecks = @(
     "[Latest audit entrypoint](LATEST.md)",
-    "[Battlestation spec sheet](G3-ROG-ACTUAL_Battlestation_Spec_Sheet.md)",
+    "[Battlestation spec sheet](g3ROG-actual_Battlestation_Spec_Sheet.md)",
     "archive/",
     "drafts/",
     "templates/"
@@ -80,8 +80,8 @@ $docsHubChecks = @(
 
 $latestChecks = @(
     "stable entrypoint",
-    "[Markdown system health report](G3-ROG-ACTUAL_System_Health_Report.md)",
-    "[Battlestation spec sheet](G3-ROG-ACTUAL_Battlestation_Spec_Sheet.md)"
+    "[Markdown system health report](g3ROG-actual_System_Health_Report.md)",
+    "[Battlestation spec sheet](g3ROG-actual_Battlestation_Spec_Sheet.md)"
 )
 
 $reportChecks = @(
@@ -109,7 +109,7 @@ foreach ($check in $latestChecks) {
 
 foreach ($check in $reportChecks) {
     if (-not $report.Contains($check)) {
-        Fail "docs/G3-ROG-ACTUAL_System_Health_Report.md is missing expected content: $check"
+        Fail "docs/g3ROG-actual_System_Health_Report.md is missing expected content: $check"
     }
 }
 
