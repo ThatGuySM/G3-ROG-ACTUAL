@@ -20,7 +20,7 @@ It is designed for GitHub presentation with quick-links, badges, and collapsible
 ## Snapshot Notice
 
 This repo is a **published system snapshot**, not a live telemetry feed.
-The current published markdown snapshot was refreshed on **April 15, 2026**.
+The current published markdown snapshot was refreshed on **April 16, 2026**.
 The downloadable PDF in `docs/` was regenerated from the same 2026 markdown snapshot.
 The current packaged release is [`v1.1.0`](https://github.com/ThatGuySM/g3ROG-actual/releases/tag/v1.1.0).
 
@@ -50,7 +50,7 @@ The current packaged release is [`v1.1.0`](https://github.com/ThatGuySM/g3ROG-ac
 - [Network](#network)
 - [Sensors](#sensors)
 - [Benchmarks (AIDA64)](#benchmarks-aida64)
-- [Processes & Autostarts](#processes--autostarts)
+- [Observed Resident Apps](#observed-resident-apps)
 - [Security](#security)
 - [Final Takeaway](#final-takeaway)
 
@@ -106,7 +106,7 @@ This repo is maintained as a repeatable audit workflow, not a one-time dump.
 - **CPU:** AMD Ryzen 7 9800X3D – observed at 5.425 GHz in AIDA64  
 - **Board:** ASUS ROG Strix B650E-F Gaming WiFi  
 - **Chipset:** AMD B650E / K1A.4 FCH / K1A.4 IMC  
-- **BIOS:** AMI (03/11/2026), restored from saved profile backup  
+- **BIOS:** AMI firmware dated 03/11/2026, board update completed 04/16/2026 and restored from saved profile backup  
 
 ## Memory
 
@@ -148,21 +148,19 @@ This repo is maintained as a repeatable audit workflow, not a one-time dump.
 - **CPU:** ZLib 1458.2 MB/s, AES 86596 MB/s, SHA3 5595 MB/s  
 - **FPU:** Mandel 120774 it/s, FP32 Ray-Trace 49594 KRay/s, FP64 Ray-Trace 27022 KRay/s  
 
-## Processes & Autostarts
+## Observed Resident Apps
 
-- Adobe Acrobat/GC sync, AMD Noise Suppression, Corsair iCUE, Logitech G Hub, OneDrive, Slack, Notion, Signal, SteelSeries GG, and Elgato Stream Deck.  
-- **Note:** Heavy by minimalist standards, but consistent with a creator/gaming workstation profile.  
+- Observed resident apps during capture included Adobe Acrobat/GC sync, AMD Noise Suppression, Corsair iCUE, Logitech G Hub, OneDrive, Slack, Notion, Signal, SteelSeries GG, and Elgato Stream Deck.  
+- **Note:** This is a runtime/app-presence snapshot, not a startup-folder inventory.  
 
 ## Security
 
 - **Windows Update:** Latest detected hotfix `KB5086672`, installed 2026-04-08.  
 - **Antivirus:** Windows Defender 4.18.26030.3011 reported current on 2026-04-15.  
-- **Firewall:** Windows reports the firewall disabled on the current domain-network setup by deliberate choice.  
-- **Recommendation:** Treat the firewall state as an intentional environment decision and document it clearly rather than presenting it as accidental drift.  
 
 ---
 
 ## Final Takeaway
 
-**g3ROG-actual is a current-generation powerhouse rig running fast, stable, and well-tuned after its March 2026 BIOS refresh.**  
-The markdown and PDF reports are now aligned to the same 2026 snapshot.
+**g3ROG-actual is a current-generation powerhouse rig running fast, stable, and well-tuned after its April 16, 2026 BIOS update.**  
+The markdown and PDF reports are now aligned to the same April 16, 2026 snapshot.

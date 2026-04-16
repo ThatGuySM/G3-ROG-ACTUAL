@@ -6,7 +6,7 @@ Use this page in the README and external links so the repo can evolve without br
 ## Current Published Snapshot
 
 - Snapshot window: 2026 audit data
-- Last repo refresh: 2026-04-15
+- Last repo refresh: 2026-04-16
 - Status: Published snapshot, not live telemetry
 
 ## Current Links

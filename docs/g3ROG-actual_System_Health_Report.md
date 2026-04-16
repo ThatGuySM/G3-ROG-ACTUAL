@@ -2,7 +2,7 @@
 
 ## Audit Snapshot
 
-- Published snapshot date: 2026-04-15
+- Published snapshot date: 2026-04-16
 - Canonical system name: `g3ROG-actual`
 - Sources: AIDA64 full report, local Windows audit collection, desktop Speedtest.net result, eero Max 7 gateway test, and restored BIOS profile export
 - Status: Published point-in-time snapshot, not live telemetry
@@ -19,8 +19,8 @@
 - CPU: OctalCore AMD Ryzen 7 9800X3D, 5425 MHz (54.25 x 100)
 - Board: ASUS ROG STRIX B650E-F GAMING WIFI
 - Chipset: AMD B650E, AMD K1A.4 FCH, AMD K1A.4 IMC
-- BIOS: AMI, dated 2026-03-11
-- Restore note: The current BIOS profile was restored after the update from exported `.CMO` / `.CMOS` backups and checked against the 2026-04-15 settings export
+- BIOS: AMI firmware dated 2026-03-11; board update completed 2026-04-16
+- Restore note: The current BIOS profile was restored after the April 16, 2026 update from exported `.CMO` / `.CMOS` backups and checked against the 2026-04-15 settings export
 
 ## Memory
 
@@ -66,17 +66,15 @@
 - CPU: ZLib 1458.2 MB/s, AES 86596 MB/s, SHA3 5595 MB/s
 - FPU: Mandel 120774 it/s, FP32 Ray-Trace 49594 KRay/s, FP64 Ray-Trace 27022 KRay/s
 
-## Processes and Autostarts
+## Observed Resident Apps
 
 - Observed resident stack: Adobe Acrobat/GC sync, AMD Noise Suppression, Corsair iCUE, Logitech G Hub, OneDrive, Slack, Notion, Signal, SteelSeries GG, and Elgato Stream Deck
-- Note: The background load is consistent with a heavily customized creator/gaming workstation rather than a stripped-down benchmark-only system
+- Note: This is an observed runtime/app-presence snapshot, not a startup-folder inventory
 
 ## Security
 
 - Windows Update: Latest detected hotfix `KB5086672`, installed 2026-04-08
 - Antivirus: Windows Defender 4.18.26030.3011, reported current on 2026-04-15
-- Firewall: Windows reports the firewall disabled on the current domain-network setup by deliberate choice
-- Security note: Defender tamper protection remains enabled; the firewall state should be understood as an intentional configuration decision in this environment
 
 ## BIOS Profile Snapshot
 
@@ -92,4 +90,4 @@
 
 `g3ROG-actual` is currently documented as a high-end gaming and creator workstation built around a Ryzen 7 9800X3D, RTX 5090, 64 GB of DDR5, and roughly 7 TB of internal SSD storage.
 
-This markdown report is the source of truth for the current published 2026 snapshot, and the PDF export should match it.
+This markdown report is the source of truth for the current published April 16, 2026 snapshot, and the PDF export should match it.

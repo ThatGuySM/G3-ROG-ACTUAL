@@ -58,17 +58,15 @@
 - CPU:
 - FPU/GPU:
 
-## Processes and Autostarts
+## Observed Resident Apps
 
-- Key background services:
-- Notes:
+- Observed resident apps:
+- Note: Clarify that this is a runtime/app-presence snapshot, not a startup-folder inventory
 
 ## Security
 
 - Windows Update status:
 - Antivirus:
-- Firewall:
-- Other notes:
 
 ## Final Takeaway
 
