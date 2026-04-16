@@ -9,6 +9,17 @@ These visuals support the written report without trying to replace it.
 - Focus: battlestation presentation, network validation, and public-facing proof points
 - Primary report: [G3-ROG-ACTUAL_System_Health_Report.md](G3-ROG-ACTUAL_System_Health_Report.md)
 
+## Repo Social Preview
+
+### Final Share Card
+
+![GitHub social preview card for G3-ROG-ACTUAL](../assets/social/social-preview_2026-04-16.png)
+
+- Asset: [social-preview_2026-04-16.png](../assets/social/social-preview_2026-04-16.png)
+- Format: `PNG`
+- Use: GitHub social/share preview asset
+- Notes: final locked repo asset supplied by the repo owner
+
 ## Battlestation
 
 ### Current Setup Photo
@@ -48,3 +59,4 @@ These visuals support the written report without trying to replace it.
 
 - These images are included as proof artifacts, not as long-term telemetry dashboards.
 - Redact or replace future screenshots if they expose details you would not want indexed publicly.
+- GitHub's custom social preview image still requires a Settings UI upload step; this asset is ready for that use.
