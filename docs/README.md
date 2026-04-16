@@ -31,5 +31,6 @@ If you are visiting the repo for the first time, start with `LATEST.md`.
 
 ## Notes
 
+- `G3-ROG-ACTUAL_Battlestation_Spec_Sheet.md` is the single published hardware inventory for the repo.
 - Treat everything here as publishable public content.
 - Redact usernames, serial numbers, keys, local network details, and anything else you would not want indexed publicly.

@@ -28,7 +28,7 @@ $requiredFiles = @(
     "docs/archive/README.md",
     "docs/drafts/README.md",
     "docs/templates/system_health_report_template.md",
-    "assets/banner.png",
+    "assets/images/banner-2026-04-16.png",
     "scripts/collect_system_audit.ps1",
     "scripts/export_report_pdf.ps1",
     "scripts/init_repo.ps1",

@@ -23,8 +23,7 @@ build/
 *.code-workspace
 
 # Local working drafts kept outside the published docs set
-g3ROG-actual-Specs/
-g3ROG-actual-specs.md
+.local/
 
 # Local archive/scratch folders
 **/.trash/

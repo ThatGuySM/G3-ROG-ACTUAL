@@ -1,4 +1,4 @@
-![G3-ROG-ACTUAL Banner](assets/banner.png)
+![g3ROG-actual Banner](assets/images/banner-2026-04-16.png)
 
 # G3-ROG-ACTUAL – System Health & Specs
 

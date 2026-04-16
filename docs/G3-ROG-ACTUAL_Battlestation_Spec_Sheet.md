@@ -1,6 +1,9 @@
-# G3-ROG-ACTUAL - Battlestation Spec Sheet
+# g3ROG-actual - Battlestation Spec Sheet
 
-Last updated: 2026-04-15
+Published inventory date: 2026-04-15
+
+This is the single published spec sheet for `g3ROG-actual`.
+Local draft spec files are working materials only and are not part of the public docs set.
 
 ## Core Hardware
 
@@ -13,12 +16,18 @@ Last updated: 2026-04-15
 | Cooler | ASUS ROG Ryujin III 360 ARGB AIO | 360 mm radiator, LCD pump display |
 | PSU | Corsair HX1500i Platinum ATX 3.0 | 1500 W, fully modular, native 12V-2x6 |
 
+## Chassis
+
+| Component | Model | Notes |
+| --- | --- | --- |
+| Case | PCCOOLER C3T500 White | Panoramic tempered-glass layout, 400 mm GPU clearance, 360 mm radiator support |
+
 ## Storage Array
 
-| Slot | Drive | Interface | Capacity | Intended Use |
+| Slot | Drive | Interface | Capacity | Notes |
 | --- | --- | --- | --- | --- |
-| M.2 #1 | Crucial T705 Gen5 NVMe | PCIe 5.0 x4 | 1 TB | OS and core apps |
-| M.2 #2 | Crucial T705 Gen5 NVMe | PCIe 5.0 x4 | 2 TB | Games library |
+| M.2 #1 | Crucial T705 Gen5 NVMe | PCIe 5.0 x4 | 1 TB | Primary internal Gen5 NVMe |
+| M.2 #2 | Crucial T705 Gen5 NVMe | PCIe 5.0 x4 | 2 TB | Secondary internal Gen5 NVMe |
 | SATA 1 | Samsung 860 EVO | SATA III | 2 TB | Media storage |
 | SATA 2 | Samsung 860 EVO | SATA III | 2 TB | Projects and backups |
 
@@ -45,6 +54,10 @@ Total solid-state storage: 7 TB
 - Microphone: SteelSeries Alias Pro with Stream Mixer
 - Speakers: SteelSeries Arena 9
 - Headset: SteelSeries Arctis Nova Pro Wireless
+
+## Security Hardware
+
+- Fingerprint reader: Benss Wireless Fingerprint Reader (Windows Hello)
 
 ## Network and Connectivity
 
