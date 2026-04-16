@@ -8,6 +8,7 @@ All notable changes to this project will be documented in this file.
 
 - Refined the README with a clearer maintenance flow for future audit updates
 - Modernized GitHub Actions workflow versions and aligned pre-commit behavior with the repo's intentional assets, Markdown formatting, and audit artifacts
+- Polished the repo landing experience with release-aware README metadata and stronger GitHub storefront positioning
 
 ### Added
 

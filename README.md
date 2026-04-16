@@ -13,6 +13,7 @@ It is designed for GitHub presentation with quick-links, badges, and collapsible
 ![Storage](https://img.shields.io/badge/Storage-7TB-purple)
 ![OS](https://img.shields.io/badge/OS-Windows%2011%2025H2-lightgrey)
 ![CI](https://github.com/ThatGuySM/G3-ROG-ACTUAL/actions/workflows/ci.yml/badge.svg)
+[![Release](https://img.shields.io/github/v/release/ThatGuySM/G3-ROG-ACTUAL?display_name=tag)](https://github.com/ThatGuySM/G3-ROG-ACTUAL/releases/tag/v1.1.0)
 
 ---
 
@@ -21,6 +22,7 @@ It is designed for GitHub presentation with quick-links, badges, and collapsible
 This repo is a **published system snapshot**, not a live telemetry feed.
 The current published markdown snapshot was refreshed on **April 15, 2026**.
 The downloadable PDF in `docs/` was regenerated from the same 2026 markdown snapshot.
+The current packaged release is [`v1.1.0`](https://github.com/ThatGuySM/G3-ROG-ACTUAL/releases/tag/v1.1.0).
 
 ## Latest Audit
 
