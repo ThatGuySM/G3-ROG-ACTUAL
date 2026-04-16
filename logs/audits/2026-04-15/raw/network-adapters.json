@@ -1,0 +1,30 @@
+[
+  {
+    "Name": "Wi-Fi",
+    "InterfaceDescription": "MediaTek Wi-Fi 6E MT7922 (RZ616) 160MHz Wireless LAN Card",
+    "Status": "Disconnected",
+    "LinkSpeed": "0 bps",
+    "MacAddress": "[redacted]"
+  },
+  {
+    "Name": "Bluetooth Network Connection",
+    "InterfaceDescription": "Bluetooth Device (Personal Area Network)",
+    "Status": "Disconnected",
+    "LinkSpeed": "3 Mbps",
+    "MacAddress": "[redacted]"
+  },
+  {
+    "Name": "Ethernet",
+    "InterfaceDescription": "Intel(R) Ethernet Controller (3) I225-V",
+    "Status": "Up",
+    "LinkSpeed": "2.5 Gbps",
+    "MacAddress": "[redacted]"
+  },
+  {
+    "Name": "vEthernet (Default Switch)",
+    "InterfaceDescription": "Hyper-V Virtual Ethernet Adapter",
+    "Status": "Up",
+    "LinkSpeed": "10 Gbps",
+    "MacAddress": "[redacted]"
+  }
+]

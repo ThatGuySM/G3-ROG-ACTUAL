@@ -1,4 +1,4 @@
-# g3ROG-ACTUAL — BIOS Change Checklist (Full Gaming + USB/Power Optimized)
+# g3ROG-ACTUAL - BIOS Restore Snapshot (2026-04-15)
 
 **Board**: ASUS ROG STRIX B650E-F  
 **CPU**: Ryzen 7 9800X3D  
@@ -6,101 +6,89 @@
 
 ---
 
-## 📋 Summary
-Through a complete review of g3ROG-ACTUAL’s exported BIOS configuration and full system spec sheet, we translated raw settings into an optimized, task-driven profile. The objective was clear: unlock the Ryzen 7 9800X3D’s full gaming potential while maintaining daily workstation reliability and maximizing USB/PCIe throughput for peripherals like the Logitech StreamCam. The resulting configuration pushes higher sustained boost clocks, improves memory latency with tuned fabric and voltage values, and removes limiting power-saving features — delivering consistent, peak performance without compromising 24/7 stability.
+## Summary
+
+This file reflects the BIOS profile that was restored after the March 11, 2026 BIOS update.
+The settings below are based on the exported `20260415-bios-set_setting.txt` snapshot and should be treated as the current restored profile, not a hypothetical tuning wishlist.
 
 ---
 
-## ✅ How to Use
+## Restore Context
 
-- In BIOS, press **F9** to search. Enter the text in **Search For** and set the value to the text in **Change To**.  
-- Make only the changes listed below. Everything else stays as-is.  
-- After finishing: `Tool → ASUS User Profile → Save to Profile` → then `Load/Save to USB → Save` (exports your new **.CMO**).
+- Backup files were saved before the BIOS update as `.CMO` and `.CMOS`.
+- After the BIOS update, the saved profile was restored and then verified against the text export.
+- This document focuses on the most meaningful restored settings for public documentation.
 
 ---
 
 ## CPU / PBO / Thermals
 
-- **Search For**: `Precision Boost Overdrive` → **Change To**: `[Advanced]`
-- **Search For**: `PBO Limits` → **Change To**: `[Manual]`
-- **Search For**: `PPT Limit [mW]` → **Change To**: `[162000]`
-- **Search For**: `TDC Limit [mA]` → **Change To**: `[120000]`
-- **Search For**: `EDC Limit [mA]` → **Change To**: `[180000]`
-- **Search For**: `CPU Boost Clock Override` → **Change To**: `[+200MHz]`
-- **Search For**: `Curve Optimizer` → **Change To**: `[All Cores Negative 10]`
-- **Search For**: `Thermal Limit` → **Change To**: `[Level 3 (85°C)]`
-- **Search For**: `Turbo Game Mode` → **Ensure**: `[Enabled]`
-- **Search For**: `ASUS Performance Enhancement` → **Ensure**: `[Enabled]`
-
-Notes:
-
-- If you get WHEA errors or instability, reduce Curve Optimizer to -7 or -5.
-- If BIOS shows PBO in two places (Ai Tweaker & AMD Overclocking), set both the same.
+- `Precision Boost Overdrive`: `Advanced`
+- `PBO Limits`: `Manual`
+- `PPT / TDC / EDC`: `162000 / 120000 / 180000`
+- `CPU Boost Clock Override`: `+200 MHz`
+- `Curve Optimizer`: `All Cores`, negative `10`
+- `Platform Thermal Throttle Limit`: `85 C`
+- `ASUS Performance Enhancement`: `Enabled`
+- `Turbo Game Mode`: `Enabled`
 
 ---
 
 ## Memory / Fabric
 
-- **Search For**: `Ai Overclock Tuner` → **Ensure**: `[EXPO I]`
-- **Search For**: `Memory Frequency` → **Ensure**: `[DDR5-6000MHz]`
-- **Search For**: `FCLK Frequency` → **Change To**: `[2000 MHz]`
-- **Search For**: `Memory Context Restore` → **Ensure**: `[Enabled]`
-- **Search For**: `CPU SOC Voltage` → **Change To**: `[1.25000]`
-- **Search For**: `DRAM VDD Voltage` → **Ensure**: `[1.35000]`
-- **Search For**: `DRAM VDDQ Voltage` → **Ensure**: `[1.35000]`
-
-Notes:
-
-- If FCLK 2000 MHz isn’t stable, revert to `[Auto]`.
+- `Ai Overclock Tuner`: `EXPO I`
+- `EXPO`: `DDR5-6000 30-36-36-76`
+- `Memory Frequency`: `DDR5-6000MHz`
+- `FCLK Frequency`: `2000 MHz`
+- `Memory Context Restore`: `Enabled`
+- `CPU SOC Voltage Override`: `1.20000`
+- `DRAM VDD / VDDQ`: `1.35000 / 1.35000`
 
 ---
 
-## Boot / QoL
+## Boot / PCIe
 
-- **Search For**: `Above 4G Decoding` → **Ensure**: `[Enabled]`
-- **Search For**: `Resize BAR Support` → **Ensure**: `[Enabled]`
-- **Search For**: `CSM` → **Change To**: `[Disabled]`
-- **Search For**: `POST Delay Time` → **Change To**: `[0 sec]`
+- `Resize BAR Support`: `Enabled`
+- `Launch CSM`: `Disabled`
+- `Primary Video Device`: `PCIE Video`
+- `PCIEX16_1 Link Mode`: `GEN 4`
+- `POST Delay Time`: `1 sec`
 
 ---
 
-## USB / Power (Peak Bandwidth + Stability)
+## USB / Power
 
-- **Search For**: `USB4 (ASM4242 Controller) Support` → **Change To**: `[Enabled]`
-- **Search For**: `Thunderbolt/USB4 (Intel® JHL8540 controller) Support` → **Change To**: `[Enabled]`
-- **Search For**: `USB power delivery in Soft Off state (S5)` → **Ensure**: `[Enabled]`
-- **Search For**: `ErP Ready` → **Ensure**: `[Disabled]`
-- **Search For**: `Native ASPM` → **Change To**: `[Disabled]`
-- **Search For**: `CPU PCIE ASPM Mode Control` → **Change To**: `[Disabled]`
-- **Search For**: `Global C-state Control` → **Change To**: `[Disabled]`
-- **Search For**: `Power Supply Idle Control` → **Change To**: `[Typical Current Idle]`
+- `USB power delivery in Soft Off state (S5)`: `Enabled`
+- `ErP Ready`: `Disabled`
+- `Native ASPM`: `Disabled`
+- `CPU PCIE ASPM Mode Control`: `Disabled`
+- `Global C-state Control`: `Enabled`
+- `Power Supply Idle Control`: `Typical Current Idle`
+- `Thunderbolt/USB4 (Intel JHL8540 controller) Support`: `Enabled`
+- `USB4 (ASM4242 Controller) Support`: `Disabled`
 
 ---
 
 ## Fans
 
-- **Search For**: `AIO Pump Profile` → **Change To**: `[Full Speed]`
-- **Search For**: `CPU/Chassis Fan Profiles` → **Ensure**: `[Turbo]` (or customize later)
+- `CPU Fan Profile`: `Manual`
+- `CPU fan curve`: `22% at 20 C`, `40% at 45 C`, `70% at 65 C`, `100% at 70 C`
+- `Chassis Fan 1-4 Profile`: `Turbo`
+- `AIO Pump Profile`: `Full Speed`
 
 ---
 
-## 🧭 Menu Paths (if search not available)
-- **PBO & CO**: Advanced → AMD Overclocking → Precision Boost Overdrive  
-- **Memory/Fabric**: Ai Tweaker → FCLK Frequency / Ai Overclock Tuner / CPU SOC Voltage  
-- **Thermal Limit**: Ai Tweaker → Precision Boost Overdrive → Thermal Limit  
-- **USB/Power**: Advanced → Onboard Devices → USB4/Thunderbolt, Advanced → APM/PCIe → ASPM / C-states / Idle  
-- **Boot**: Boot → POST Delay Time
+## Notes
 
----
+- This restored profile keeps the aggressive CPU tuning and EXPO memory profile.
+- It does not exactly match the older "USB/Power optimized" checklist.
+- The most notable differences versus the older note are:
+  - `Global C-state Control` is `Enabled`
+  - `USB4 (ASM4242 Controller) Support` is `Disabled`
+  - `CPU SOC Voltage Override` is `1.20000` instead of `1.25000`
+  - `POST Delay Time` is `1 sec`
 
-## 💡 Final Notes
-- Plug StreamCam into **rear USB-C** for 1080p60 once USB4 is enabled.  
-- System will idle a bit warmer / draw more watts with ASPM + C-states disabled — that’s expected for peak stability.  
-- If unstable, relax CO or FCLK as above.
+## Backup Files
 
----
-
-## 🧰 Export to .CMO
-1. `Tool → ASUS User Profile → Save to Profile` (e.g., **FULL_CO-10_USB4**)  
-2. `Tool → ASUS User Profile → Load/Save to USB → Save` → get portable **.CMO**
-
+- Pre-update backups were exported as `.CMO` and `.CMOS` files on 2026-04-15.
+- The text export is the easiest human-readable source for verifying what was restored.

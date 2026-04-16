@@ -1,0 +1,38 @@
+[
+  {
+    "Model": "Samsung SSD 860 EVO 2TB",
+    "InterfaceType": "IDE",
+    "MediaType": "Fixed hard disk media",
+    "Size": 2000396321280
+  },
+  {
+    "Model": "CT2000T705SSD3",
+    "InterfaceType": "SCSI",
+    "MediaType": "Fixed hard disk media",
+    "Size": 2000396321280
+  },
+  {
+    "Model": "CT1000T705SSD3",
+    "InterfaceType": "SCSI",
+    "MediaType": "Fixed hard disk media",
+    "Size": 1000202273280
+  },
+  {
+    "Model": "Generic MassStorageClass USB Device",
+    "InterfaceType": "USB",
+    "MediaType": null,
+    "Size": null
+  },
+  {
+    "Model": "Samsung SSD 860 EVO 2TB",
+    "InterfaceType": "IDE",
+    "MediaType": "Fixed hard disk media",
+    "Size": 2000396321280
+  },
+  {
+    "Model": "Generic MassStorageClass USB Device",
+    "InterfaceType": "USB",
+    "MediaType": null,
+    "Size": null
+  }
+]

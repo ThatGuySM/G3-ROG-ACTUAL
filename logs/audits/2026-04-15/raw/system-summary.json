@@ -1,0 +1,19 @@
+{
+  "SnapshotDate": "2026-04-15",
+  "ComputerName": "G3ROG-ACTUAL",
+  "Manufacturer": "ASUS",
+  "Model": "System Product Name",
+  "TotalMemoryGB": 61.66,
+  "UserName": "[review before publication]",
+  "Domain": "[review before publication]",
+  "OperatingSystem": "Microsoft Windows 11 Enterprise",
+  "OSVersion": "10.0.26200",
+  "BuildNumber": "26200",
+  "LastBootUpTime": "2026-04-15T12:50:36.5-04:00",
+  "CPU": "AMD Ryzen 7 9800X3D 8-Core Processor           ",
+  "Motherboard": "ASUSTeK COMPUTER INC. ROG STRIX B650E-F GAMING WIFI",
+  "BIOSVersion": "3602",
+  "BIOSReleaseDate": "2025-11-12T19:00:00-05:00",
+  "LastInstalledHotfix": "KB5086672",
+  "LastInstalledHotfixDate": "2026-04-08T00:00:00"
+}

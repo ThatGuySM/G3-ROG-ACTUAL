@@ -2,6 +2,27 @@
 
 All notable changes to this project will be documented in this file.
 
+## [Unreleased]
+
+### Changed
+
+- Reworked repo validation so GitHub Actions runs real checks instead of placeholder jobs
+- Clarified that the public system report is a point-in-time snapshot
+- Improved repo scaffolding, contribution guidance, and issue/PR templates
+- Added a stable latest-audit navigation flow and documentation hub
+- Published the 2026 markdown audit snapshot and archived the older 2025 markdown report
+- Refreshed the README, spec sheet, BIOS notes, and network data to match the 2026 snapshot
+- Added a local PDF export script and regenerated the main report PDF from the published markdown
+
+### Added
+
+- `docs/LATEST.md` as a stable entrypoint for the latest published audit
+- `docs/README.md` and `docs/archive/README.md` for documentation navigation
+- `docs/drafts/README.md` and a scaffolded 2026 draft workflow
+- `docs/G3-ROG-ACTUAL_Battlestation_Spec_Sheet.md` as a tracked public spec sheet
+- `docs/templates/system_health_report_template.md` for future report creation
+- `scripts/collect_system_audit.ps1`, `scripts/new_audit_report.ps1`, `scripts/validate_repo.ps1`, `.pre-commit-config.yaml`, and `.yamllint.yml`
+
 ## [1.0.0] - 2025-09-05
 
 ### Added

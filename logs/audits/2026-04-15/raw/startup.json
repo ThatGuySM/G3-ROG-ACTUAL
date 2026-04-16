@@ -1,0 +1,87 @@
+[
+  {
+    "Name": "Adobe Acrobat Synchronizer",
+    "Command": "\"C:\\Program Files\\Adobe\\Acrobat DC\\Acrobat\\AdobeCollabSync.exe\"",
+    "User": "[redacted]"
+  },
+  {
+    "Name": "AdobeGCInvoker-1.0",
+    "Command": "\"C:\\Program Files (x86)\\Common Files\\Adobe\\AdobeGCClient\\AGCInvokerUtility.exe\"",
+    "User": "[redacted]"
+  },
+  {
+    "Name": "AMDNoiseSuppression",
+    "Command": "\"C:\\WINDOWS\\system32\\AMD\\ANR\\AMDNoiseSuppression.exe\"",
+    "User": "[redacted]"
+  },
+  {
+    "Name": "AMDNoiseSuppression",
+    "Command": "\"C:\\WINDOWS\\system32\\AMD\\ANR\\AMDNoiseSuppression.exe\"",
+    "User": "[redacted]"
+  },
+  {
+    "Name": "com.squirrel.slack.slack",
+    "Command": "\"C:\\Users\\<user>\\AppData\\Local\\slack\\slack.exe\" --process-start-args --startup",
+    "User": "[redacted]"
+  },
+  {
+    "Name": "Corsair iCUE5 Software",
+    "Command": "\"C:\\Program Files\\Corsair\\Corsair iCUE5 Software\\iCUE Launcher.exe\" --autorun",
+    "User": "[redacted]"
+  },
+  {
+    "Name": "electron.app.Notion",
+    "Command": "C:\\Users\\<user>\\AppData\\Local\\Programs\\Notion\\Notion.exe --open-at-login",
+    "User": "[redacted]"
+  },
+  {
+    "Name": "LGHUB",
+    "Command": "\"C:\\Program Files\\LGHUB\\system_tray\\lghub_system_tray.exe\" --minimized",
+    "User": "[redacted]"
+  },
+  {
+    "Name": "Microsoft.Lists",
+    "Command": "C:\\Program Files\\Microsoft OneDrive\\26.055.0323.0004\\OneDrive.Sync.Service.exe",
+    "User": "[redacted]"
+  },
+  {
+    "Name": "OneDrive",
+    "Command": "\"C:\\Program Files\\Microsoft OneDrive\\OneDrive.exe\" /background",
+    "User": "[redacted]"
+  },
+  {
+    "Name": "org.whispersystems.signal-desktop",
+    "Command": "C:\\Users\\<user>\\AppData\\Local\\Programs\\signal-desktop\\Signal.exe --start-in-tray",
+    "User": "[redacted]"
+  },
+  {
+    "Name": "RtkAudUService",
+    "Command": "\"C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\realtekservice.inf_amd64_babf1584c40a3d53\\RtkAudUService64.exe\" -background",
+    "User": "[redacted]"
+  },
+  {
+    "Name": "SecurityHealth",
+    "Command": "%windir%\\system32\\SecurityHealthSystray.exe",
+    "User": "[redacted]"
+  },
+  {
+    "Name": "Send to OneNote",
+    "Command": "Send to OneNote.lnk",
+    "User": "[redacted]"
+  },
+  {
+    "Name": "SteelSeriesGG",
+    "Command": "\"C:\\Program Files\\SteelSeries\\GG\\SteelSeriesGG.exe\" -dataPath=\"C:\\ProgramData\\SteelSeries\\GG\" -dbEnv=production -auto=true",
+    "User": "[redacted]"
+  },
+  {
+    "Name": "Stream Deck",
+    "Command": "\"C:\\Program Files\\Elgato\\StreamDeck\\StreamDeck.exe\" --runinbk",
+    "User": "[redacted]"
+  },
+  {
+    "Name": "Volume Controller SD plugin",
+    "Command": "C:\\Program Files\\Elgato\\Volume Controller\\ElgatoAudioControlServerWatcher.exe",
+    "User": "[redacted]"
+  }
+]

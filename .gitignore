@@ -15,6 +15,15 @@ dist/
 build/
 *.zip
 
-# Logs
-logs/
-*.log
+# Local scratch files
+*.tmp
+*.bak
+*.orig
+*.code-workspace
+
+# Local working drafts kept outside the published docs set
+g3ROG-actual-Specs/
+g3ROG-actual-specs.md
+
+# Local archive/scratch folders
+**/.trash/

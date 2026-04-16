@@ -1,0 +1,11 @@
+{
+  "AMServiceEnabled": true,
+  "AntispywareEnabled": true,
+  "AntivirusEnabled": true,
+  "BehaviorMonitorEnabled": true,
+  "IoavProtectionEnabled": true,
+  "IsTamperProtected": true,
+  "NISEnabled": true,
+  "QuickScanAge": 0,
+  "RealTimeProtectionEnabled": true
+}

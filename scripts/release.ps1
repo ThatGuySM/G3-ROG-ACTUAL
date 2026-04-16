@@ -16,6 +16,8 @@ if (-not (Test-Path ".git")) { Err "Not a git repo. Run inside your repo root.";
 
 # Create release branch
 $branch = "release/$Version"
+git rev-parse --verify $branch 1>$null 2>$null
+if ($LASTEXITCODE -eq 0) { Err "Branch $branch already exists."; exit 1 }
 Step "Creating branch $branch"
 git checkout -b $branch 2>$null
 
