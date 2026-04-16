@@ -1,4 +1,4 @@
-# Contributing to G3-ROG-ACTUAL Audit Repo
+# Contributing to g3ROG-actual Audit Repo
 
 Thanks for helping keep this battlestation repo clean, useful, and trustworthy.
 

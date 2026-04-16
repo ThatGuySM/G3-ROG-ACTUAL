@@ -1,10 +1,10 @@
-# G3-ROG-ACTUAL Local Audit Collection
+# g3ROG-actual Local Audit Collection
 
 Snapshot date: 2026-04-15
 
 ## System Summary
 
-- Computer: G3ROG-ACTUAL
+- Computer: g3ROG-actual
 - Model: System Product Name
 - Operating system: Microsoft Windows 11 Enterprise (10.0.26200 build 26200)
 - User/domain: [review before publication] / [review before publication]

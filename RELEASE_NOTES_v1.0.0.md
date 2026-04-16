@@ -1,6 +1,6 @@
-# 🚀 G3-ROG-ACTUAL v1.0.0 — Launch
+# 🚀 g3ROG-actual v1.0.0 — Launch
 
-This is the first public release of **G3-ROG-ACTUAL**, my command-center PC build and its full audit repo.  
+This is the first public release of **g3ROG-actual**, my command-center PC build and its full audit repo.  
 This repo will serve as a living record of hardware, benchmarks, health reports, and supporting scripts.
 
 ---
@@ -22,7 +22,7 @@ This repo will serve as a living record of hardware, benchmarks, health reports,
 
 - **Branding**  
   - Repo banner (`assets/banner.png`)  
-  - Repo name & callsign updated to **G3-ROG-ACTUAL**
+  - Repo name & callsign updated to **g3ROG-actual**
 
 ---
 
