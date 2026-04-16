@@ -2,9 +2,8 @@
 
 # g3ROG-actual – System Health & Specs
 
-Welcome to the system audit for **ThatGuyᴼᴳ’s battlestation** — codename **g3ROG-actual**.
-This README captures the rig’s full specs, health status, and benchmark results.
-It is designed for GitHub presentation with quick-links, badges, and collapsible sections.
+This repo is the published hardware and health dossier for **ThatGuyᴼᴳ's** battlestation, **g3ROG-actual**.
+It brings the current spec sheet, system report, benchmarks, BIOS notes, and proof artifacts into one clean public record.
 
 ![Status](https://img.shields.io/badge/Status-Healthy-brightgreen)
 ![CPU](https://img.shields.io/badge/CPU-Ryzen%207%209800X3D-orange)
@@ -20,7 +19,7 @@ It is designed for GitHub presentation with quick-links, badges, and collapsible
 ## Snapshot Notice
 
 This repo is a **published system snapshot**, not a live telemetry feed.
-The current published markdown snapshot was refreshed on **April 16, 2026**.
+The current published snapshot was refreshed on **April 16, 2026**.
 The downloadable PDF in `docs/` was regenerated from the same 2026 markdown snapshot.
 The current packaged release is [`v1.1.0`](https://github.com/ThatGuySM/g3ROG-actual/releases/tag/v1.1.0).
 
@@ -68,7 +67,7 @@ The current packaged release is [`v1.1.0`](https://github.com/ThatGuySM/g3ROG-ac
 
 ## Visual Proof
 
-These images are lightweight proof artifacts from the April 15, 2026 snapshot.
+These images are lightweight proof artifacts supporting the current April 16, 2026 published snapshot.
 The full gallery lives in [docs/GALLERY.md](docs/GALLERY.md).
 
 ### Battlestation
@@ -85,7 +84,7 @@ The gallery also includes a downloadable motion clip of the same setup view.
 
 ## Update Flow
 
-This repo is maintained as a repeatable audit workflow, not a one-time dump.
+This repo is maintained as a repeatable audit workflow, not a one-time export dump.
 
 1. Collect a fresh local inventory with `pwsh ./scripts/collect_system_audit.ps1`.
 2. Scaffold or revise the next report with `pwsh ./scripts/new_audit_report.ps1 -SnapshotDate YYYY-MM-DD`.
@@ -162,5 +161,5 @@ This repo is maintained as a repeatable audit workflow, not a one-time dump.
 
 ## Final Takeaway
 
-**g3ROG-actual is a current-generation powerhouse rig running fast, stable, and well-tuned after its April 16, 2026 BIOS update.**  
-The markdown and PDF reports are now aligned to the same April 16, 2026 snapshot.
+**g3ROG-actual is a high-end gaming and creator battlestation running fast, stable, and well-tuned after its April 16, 2026 BIOS update.**  
+The published markdown and PDF now align to the same April 16, 2026 snapshot.

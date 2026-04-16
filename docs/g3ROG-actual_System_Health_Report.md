@@ -68,8 +68,8 @@
 
 ## Observed Resident Apps
 
-- Observed resident stack: Adobe Acrobat/GC sync, AMD Noise Suppression, Corsair iCUE, Logitech G Hub, OneDrive, Slack, Notion, Signal, SteelSeries GG, and Elgato Stream Deck
-- Note: This is an observed runtime/app-presence snapshot, not a startup-folder inventory
+- Observed resident apps during capture included Adobe Acrobat/GC sync, AMD Noise Suppression, Corsair iCUE, Logitech G Hub, OneDrive, Slack, Notion, Signal, SteelSeries GG, and Elgato Stream Deck
+- Note: This is a runtime/app-presence snapshot, not a startup-folder inventory
 
 ## Security
 
@@ -88,6 +88,6 @@
 
 ## Final Takeaway
 
-`g3ROG-actual` is currently documented as a high-end gaming and creator workstation built around a Ryzen 7 9800X3D, RTX 5090, 64 GB of DDR5, and roughly 7 TB of internal SSD storage.
+`g3ROG-actual` is currently documented as a high-end gaming and creator battlestation built around a Ryzen 7 9800X3D, RTX 5090, 64 GB of DDR5, and roughly 7 TB of internal SSD storage.
 
-This markdown report is the source of truth for the current published April 16, 2026 snapshot, and the PDF export should match it.
+This markdown report is the source of truth for the published April 16, 2026 snapshot, and the PDF export is intended to match it.

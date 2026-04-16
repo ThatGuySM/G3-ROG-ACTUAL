@@ -23,4 +23,4 @@ Use this page in the README and external links so the repo can evolve without br
 - Start with the system health report for a concise health snapshot.
 - Use the spec sheet for the fuller hardware and peripheral inventory.
 - Use the visual gallery for quick screenshot-based proof points.
-- Check BIOS notes if you want the restored-profile context behind the build.
+- Check BIOS notes for the restored-profile context behind the build.
