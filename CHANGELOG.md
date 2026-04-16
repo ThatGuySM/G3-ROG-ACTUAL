@@ -4,6 +4,14 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
 
+### Changed
+
+- Refined the README with a clearer maintenance flow for future audit updates
+
+### Added
+
+- `docs/GALLERY.md` plus tracked speed-test proof images under `assets/gallery/`
+
 ## [1.1.0] - 2026-04-15
 
 ### Changed

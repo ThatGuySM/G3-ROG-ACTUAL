@@ -29,6 +29,7 @@ The downloadable PDF in `docs/` was regenerated from the same 2026 markdown snap
 - [System health report](docs/G3-ROG-ACTUAL_System_Health_Report.md)
 - [PDF report](docs/G3-ROG-ACTUAL_System_Health_Report.pdf)
 - [Battlestation spec sheet](docs/G3-ROG-ACTUAL_Battlestation_Spec_Sheet.md)
+- [Visual gallery](docs/GALLERY.md)
 - [BIOS profile notes](bios/g3rog_actual_bios_full_profile.md)
 
 ---
@@ -37,6 +38,8 @@ The downloadable PDF in `docs/` was regenerated from the same 2026 markdown snap
 
 - [Latest Audit](#latest-audit)
 - [Repository Layout](#repository-layout)
+- [Visual Proof](#visual-proof)
+- [Update Flow](#update-flow)
 - [System Summary](#system-summary)
 - [CPU & Motherboard](#cpu--motherboard)
 - [Memory](#memory)
@@ -58,6 +61,28 @@ The downloadable PDF in `docs/` was regenerated from the same 2026 markdown snap
 - `logs/`: sanitized diagnostic or monitoring logs
 - `bios/`: BIOS tuning notes and profile references
 - `scripts/`: repo setup, release, and validation helpers
+
+---
+
+## Visual Proof
+
+These images are lightweight proof artifacts from the April 15, 2026 snapshot.
+The full gallery lives in [docs/GALLERY.md](docs/GALLERY.md).
+
+| Desktop throughput snapshot | Gateway throughput snapshot |
+| --- | --- |
+| ![Desktop Speedtest.net result from 2026-04-15](assets/gallery/desktop_speedtest_2026-04-15.png) | ![eero Max 7 gateway speed test from 2026-04-15](assets/gallery/eero_gateway_speedtest_2026-04-15.png) |
+
+---
+
+## Update Flow
+
+This repo is maintained as a repeatable audit workflow, not a one-time dump.
+
+1. Collect a fresh local inventory with `pwsh ./scripts/collect_system_audit.ps1`.
+2. Scaffold or revise the next report with `pwsh ./scripts/new_audit_report.ps1 -SnapshotDate YYYY-MM-DD`.
+3. Publish the markdown snapshot, regenerate the PDF, and archive the superseded report.
+4. Run `pwsh ./scripts/validate_repo.ps1` before pushing or tagging a release.
 
 ---
 

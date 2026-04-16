@@ -9,6 +9,7 @@ If you are visiting the repo for the first time, start with `LATEST.md`.
 - [Current system health report](G3-ROG-ACTUAL_System_Health_Report.md)
 - [Current PDF report](G3-ROG-ACTUAL_System_Health_Report.pdf)
 - [Battlestation spec sheet](G3-ROG-ACTUAL_Battlestation_Spec_Sheet.md)
+- [Visual gallery](GALLERY.md)
 - [BIOS tuning notes](../bios/g3rog_actual_bios_full_profile.md)
 
 ## Folder Layout
