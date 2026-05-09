@@ -6,7 +6,7 @@ repos:
       - id: check-added-large-files
         exclude: ^(assets/banner\.png|assets/(gallery|images|social)/.*\.(png|jpe?g|mov|mp4)$|docs/.*\.pdf)$
       - id: end-of-file-fixer
-        exclude: ^bios/\.trash/
+        exclude: ^(\.nojekyll|bios/\.trash/)
       - id: trailing-whitespace
         args: [--markdown-linebreak-ext=md]
         exclude: ^bios/\.trash/
