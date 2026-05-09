@@ -4,7 +4,7 @@ repos:
     hooks:
       - id: check-merge-conflict
       - id: check-added-large-files
-        exclude: ^(assets/banner\.png|assets/gallery/.*\.(png|jpe?g|mov|mp4)$|docs/.*\.pdf)$
+        exclude: ^(assets/banner\.png|assets/(gallery|images|social)/.*\.(png|jpe?g|mov|mp4)$|docs/.*\.pdf)$
       - id: end-of-file-fixer
         exclude: ^bios/\.trash/
       - id: trailing-whitespace
