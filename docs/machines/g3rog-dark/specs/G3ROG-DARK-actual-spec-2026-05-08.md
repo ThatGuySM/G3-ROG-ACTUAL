@@ -1,9 +1,9 @@
 # G3ROG-DARK - Actual Detected Spec
 
-Snapshot date: 2026-05-08  
+Snapshot date: 2026-05-08 showcase baseline, refreshed with 2026-05-09 sanitized AIDA64 source notes
 Audience: internal repo reference / maintenance
 
-This page is the markdown companion to the detailed HTML export. It keeps the useful detected hardware facts visible in GitHub without requiring the PDF or HTML view.
+This page is the markdown companion to the detailed HTML export. It keeps the useful detected hardware facts visible in GitHub without requiring the PDF or HTML view. For the current SMT-confirmed source of truth, see [`../../../g3ROG-DARK-spec.md`](../../../g3ROG-DARK-spec.md).
 
 ## Live Detected Core Hardware
 
@@ -55,30 +55,33 @@ This page is the markdown companion to the detailed HTML export. It keeps the us
 | Monitors | 2x LG UltraGear+ displays and 2x Sceptre P30 30-inch ultrawides detected |
 | Network | Realtek 10GbE active; Realtek 5GbE and MediaTek Wi-Fi 7 also detected |
 | USB loadout | Arctis Nova Pro Wireless, SteelSeries Alias Pro, SteelSeries Arena 9, Stream Deck+ dock, Logitech StreamCam, Ryujin III, AURA LED controller, VeriMark IT fingerprint key, multiple hubs, and mass-storage readers |
-| Security | VeriMark IT Fingerprint Key detected |
+| Security | VeriMark IT Fingerprint Key detected; Secure Boot enabled and TPM 2.0 present in the 2026-05-09 sanitized source |
 
 ## Thermal and Power Baseline
 
-This is not a stress-test result. It is a point-in-time AIDA64 sensor snapshot from the uploaded hardware report.
+This is not a stress-test result. It is a point-in-time AIDA64 sensor snapshot from the uploaded hardware report. Values below reflect the 2026-05-09 sanitized source refresh.
 
 | Sensor | Reading |
 | --- | --- |
 | Motherboard | 37 C |
-| CPU | 39 C |
-| CPU package | 49 C |
+| CPU | 50 C |
+| CPU package | 60 C |
 | VRM | 46 C |
 | RTX 5090 GPU | 33 C |
 | RTX 5090 memory | 44 C |
-| Crucial T705 2TB | 54 C |
-| Crucial T705 1TB | 44 C |
-| AIO pump | 2596 RPM |
-| PSU fan | 0 RPM |
-| PSU draw | 200.91 W |
+| Crucial T705 2TB | 53 C |
+| Crucial T705 1TB | 43 C |
+| AIO pump | 3524 RPM |
+| RTX 5090 fan #1 / #2 | 619 RPM / 620 RPM |
+| Board-estimated system power | 274.02 W |
 
 ## Operational Notes
 
 - The uploaded AIDA64 reports are the source of truth for the installed G3ROG-DARK build.
 - The old g3ROG-actual spec sheet is now historical and should not be treated as current for this machine.
-- Memory is running above the kit's original DDR5-6000 spec. Keep stability notes with future updates.
+- SMT is restored to Auto / enabled; the 2026-05-09 sanitized source confirms 8 physical cores and 16 logical processors.
+- Memory is running above the kit's original DDR5-6000 spec at DDR5-6200 CL32-38-38-80 1T. Keep stability notes with future updates.
+- Exact M.2 physical slot mapping still needs verification because SMBIOS slot occupancy does not fully match the two detected Gen5 NVMe controllers.
+- One Samsung 860 EVO has a high historical C7 CRC counter; check whether it is still increasing before treating it as drive failure.
 - X870E Dark Hero M.2_2 shares bandwidth with rear USB4 40Gbps ports. Avoid filling that slot unless the tradeoff is intentional.
 - Use the proper native high-power GPU cable path for the RTX 5090.

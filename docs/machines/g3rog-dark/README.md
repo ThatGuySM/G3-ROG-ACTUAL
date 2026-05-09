@@ -6,6 +6,11 @@
 
 ## Start Here
 
+- [Current source-of-truth spec](../../g3ROG-DARK-spec.md)
+- [Current source-of-truth spec HTML](../../g3ROG-DARK-spec.html)
+- [BIOS settings](../../bios-settings.md)
+- [Stability validation plan](../../stability-validation.md)
+- [AIDA64 source notes](../../aida64/README.md)
 - [Share-safe friends showcase HTML](exports/G3ROG-DARK-showcase-spec-2026-05-08.html)
 - [Detailed actual spec HTML](exports/G3ROG-DARK-actual-spec-2026-05-08.html)
 - [Share-safe markdown spec](specs/G3ROG-DARK-showcase-spec-2026-05-08.md)
@@ -17,9 +22,9 @@
 | Field | Value |
 | --- | --- |
 | Call sign | G3ROG-DARK |
-| Snapshot date | 2026-05-08 |
+| Snapshot date | 2026-05-09 source update, original showcase photos from 2026-05-08 |
 | Role | Current flagship / daily driver |
-| Source | AIDA64-backed reports, build notes, and exported spec sheets |
+| Source | Sanitized AIDA64 Report `AIDA64-Report-20260509_v2`, build notes, and exported spec sheets |
 | Public posture | Showcase-first, private identifiers omitted |
 
 ## Core Spec
@@ -40,20 +45,20 @@
 
 ## Baseline Snapshot
 
-These values are a point-in-time idle/light-load baseline from the uploaded reports, not stress-test proof.
+These values are point-in-time idle/light-load baseline readings from the uploaded reports, not stress-test proof. The 2026-05-09 source updated the CPU package and fan snapshot compared with the original showcase page.
 
 | Sensor | Reading |
 | --- | --- |
 | Motherboard | 37 C |
-| CPU | 39 C |
-| CPU package | 49 C |
+| CPU | 50 C |
+| CPU package | 60 C |
 | VRM | 46 C |
 | RTX 5090 GPU | 33 C |
 | RTX 5090 memory | 44 C |
-| Crucial T705 2TB | 54 C |
-| Crucial T705 1TB | 44 C |
-| AIO pump | 2596 RPM |
-| PSU draw | 200.91 W |
+| Crucial T705 2TB | 53 C |
+| Crucial T705 1TB | 43 C |
+| AIO pump | 3524 RPM |
+| Board-estimated system power | 274.02 W |
 
 ## Visual Proof
 
@@ -66,5 +71,8 @@ These values are a point-in-time idle/light-load baseline from the uploaded repo
 - The showcase HTML is the best first link for friends and visitors.
 - The detailed HTML and markdown are useful for maintenance, audits, and future comparison.
 - The detailed source contains operational context. Keep it reviewed for private details before publishing outside the repo.
-- Memory was observed at DDR5-6200 with 32-38-38-80 timing. Keep stability testing notes with this machine if that profile stays.
+- SMT is restored to Auto / enabled; the 2026-05-09 sanitized source confirms 8 physical cores and 16 logical processors.
+- Memory was observed at DDR5-6200 with 32-38-38-80 1T timing. Keep stability testing notes with this machine if that profile stays.
+- Exact M.2 physical slot mapping still needs verification because SMBIOS slot occupancy does not fully match the detected NVMe inventory.
+- One Samsung 860 EVO has a high historical C7 CRC counter; check whether it continues increasing before blaming the SSD itself.
 - Avoid using the X870E Dark Hero M.2 slot that trades bandwidth with rear USB4 unless that tradeoff is intentional.

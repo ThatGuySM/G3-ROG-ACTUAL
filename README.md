@@ -22,6 +22,9 @@ The current flagship is **G3ROG-DARK**, a May 2026 Dark Hero / RTX 5090 build. T
 - [G3ROG web showcase](https://thatguysm.github.io/g3ROG/)
 - [Latest published entrypoint](docs/LATEST.md)
 - [G3ROG-DARK machine page](docs/machines/g3rog-dark/README.md)
+- [G3ROG-DARK current spec](docs/g3ROG-DARK-spec.md)
+- [G3ROG-DARK BIOS settings](docs/bios-settings.md)
+- [G3ROG-DARK stability validation](docs/stability-validation.md)
 - [G3ROG-DARK friends showcase HTML](docs/machines/g3rog-dark/exports/G3ROG-DARK-showcase-spec-2026-05-08.html)
 - [G3ROG-DARK detailed internal HTML](docs/machines/g3rog-dark/exports/G3ROG-DARK-actual-spec-2026-05-08.html)
 - [Documentation hub](docs/README.md)
@@ -65,7 +68,7 @@ Keep public pages share-safe. Raw reports, serial numbers, MAC addresses, UUIDs,
 
 ## Repository Layout
 
-- `docs/`: public documentation hub, latest entrypoint, machine pages, and archived reports
+- `docs/`: public documentation hub, latest entrypoint, G3ROG-DARK spec, BIOS notes, validation plan, machine pages, and archived reports
 - `docs/machines/`: per-machine pages, specs, exports, and snapshots
 - `assets/`: banners, gallery images, social preview assets, and visual proof
 - `benchmarks/`: benchmark exports and summaries
