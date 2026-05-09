@@ -4,14 +4,26 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
 
+### Added
+
+- Promoted the repo into the broader `g3ROG` machine dossier with `docs/machines/` as the new per-machine structure
+- Added the active `G3ROG-DARK` machine page, share-safe markdown spec, detailed detected markdown spec, and HTML exports
+- Added `G3ROG-DARK` gallery photos from the May 8, 2026 chassis shoot
+- Added a new `G3ROG-DARK` README banner and GitHub social preview card generated from the real chassis photos
+- Added historical `g3ROG-actual` and future rebuild machine pages so the repo can track the old flagship and the hand-me-down build cleanly
+
 ### Changed
 
+- Reworked the root README from a single-machine audit page into a multi-machine build dossier
+- Updated `docs/LATEST.md`, `docs/README.md`, and `docs/GALLERY.md` so the current flagship is `G3ROG-DARK`
+- Reframed the April 2026 `g3ROG-actual` docs as historical pre-rebuild records
+- Updated validation to check the new machine docs, HTML exports, gallery assets, banner, social preview, and markdown links
+- Sanitized the detailed `G3ROG-DARK` HTML export so local IP and private domain details are not published
+- Updated repository-facing badge links for the intended `ThatGuySM/g3ROG` rename
 - Refined the README with a clearer maintenance flow for future audit updates
 - Modernized GitHub Actions workflow versions and aligned pre-commit behavior with the repo's intentional assets, Markdown formatting, and audit artifacts
 - Polished the repo landing experience with release-aware README metadata and stronger GitHub storefront positioning
 - Corrected the published snapshot to reflect the April 16, 2026 BIOS update, removed public firewall disclosure, and clarified that the app list is not a startup-folder inventory
-
-### Added
 
 - `docs/GALLERY.md` plus tracked speed-test proof images under `assets/gallery/`
 - Approved battlestation photo and motion clip under `assets/gallery/` for public repo presentation

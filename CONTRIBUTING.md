@@ -1,10 +1,12 @@
-# Contributing to g3ROG-actual Audit Repo
+# Contributing to the g3ROG Build Dossier
 
-Thanks for helping keep this battlestation repo clean, useful, and trustworthy.
+Thanks for helping keep this build dossier clean, useful, and trustworthy.
 
 ## What belongs here
 
-- `docs/`: published health reports, summaries, and export-ready documentation
+- `docs/`: published health reports, summaries, machine pages, and export-ready documentation
+- `docs/machines/`: per-machine records for active, historical, and future builds
+- `assets/`: public images, social previews, banners, and proof artifacts
 - `benchmarks/`: benchmark exports, screenshots, and result summaries
 - `logs/`: sanitized logs that help explain system behavior
 - `bios/`: BIOS notes, profiles, and tuning guides
@@ -13,6 +15,7 @@ Thanks for helping keep this battlestation repo clean, useful, and trustworthy.
 ## Contribution rules
 
 - Keep the README as a high-level summary and link out to deeper reports instead of duplicating large blocks of data.
+- Put machine-specific material under `docs/machines/<machine>/`.
 - When you update time-sensitive data, note the snapshot date in the edited document.
 - Redact serial numbers, license keys, local usernames, hostnames, and anything else you would not want indexed publicly.
 - Prefer descriptive filenames with dates or versions when adding new reports or benchmarks.
@@ -26,7 +29,7 @@ Thanks for helping keep this battlestation repo clean, useful, and trustworthy.
 
 ## Publishing new audits
 
-- Add new long-form reports under `docs/` and move superseded versions into `docs/archive/`.
+- Add new long-form reports under the owning machine page or `docs/` and move superseded versions into `docs/archive/` or a dated machine snapshot folder.
 - Use `docs/drafts/` for work-in-progress reports that are not ready to publish.
 - Keep `docs/LATEST.md` updated so visitors always have one stable place to start.
 - Use `docs/templates/system_health_report_template.md` when creating a new report from scratch.

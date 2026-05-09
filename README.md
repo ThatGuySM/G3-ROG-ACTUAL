@@ -1,165 +1,85 @@
-![g3ROG-actual Banner](assets/images/banner-2026-04-16.png)
+![g3ROG Banner](assets/images/g3rog-dark-banner-2026-05-08.jpg)
 
-# g3ROG-actual – System Health & Specs
+# g3ROG - PC Build Dossier
 
-This repo is the published hardware and health dossier for **ThatGuyᴼᴳ's** battlestation, **g3ROG-actual**.
-It brings the current spec sheet, system report, benchmarks, BIOS notes, and proof artifacts into one clean public record.
+This repo is the public build journal and hardware dossier for the **g3ROG** machines: current flagship, retired snapshots, rebuild notes, benchmark artifacts, BIOS notes, galleries, and share-safe spec sheets.
 
-![Status](https://img.shields.io/badge/Status-Healthy-brightgreen)
-![CPU](https://img.shields.io/badge/CPU-Ryzen%207%209800X3D-orange)
+The current flagship is **G3ROG-DARK**, a May 2026 Dark Hero / RTX 5090 build. The earlier **g3ROG-actual** snapshot is preserved as the pre-rebuild record before drives, RAM, and GPU moved into the new machine.
+
+![Current](https://img.shields.io/badge/Current-G3ROG--DARK-62d6ff)
+![CPU](https://img.shields.io/badge/CPU-Ryzen%207%209850X3D-orange)
 ![GPU](https://img.shields.io/badge/GPU-RTX%205090-white)
-![RAM](https://img.shields.io/badge/RAM-64GB_DDR5_6000-blue)
-![Storage](https://img.shields.io/badge/Storage-7TB-purple)
+![RAM](https://img.shields.io/badge/RAM-64GB_DDR5_6200-blue)
+![Storage](https://img.shields.io/badge/Storage-6.52TB-purple)
 ![OS](https://img.shields.io/badge/OS-Windows%2011%2025H2-lightgrey)
-![CI](https://github.com/ThatGuySM/g3ROG-actual/actions/workflows/ci.yml/badge.svg)
-[![Release](https://img.shields.io/github/v/release/ThatGuySM/g3ROG-actual?display_name=tag)](https://github.com/ThatGuySM/g3ROG-actual/releases/tag/v1.1.0)
+![CI](https://github.com/ThatGuySM/g3ROG/actions/workflows/ci.yml/badge.svg)
+[![Release](https://img.shields.io/github/v/release/ThatGuySM/g3ROG?display_name=tag)](https://github.com/ThatGuySM/g3ROG/releases/tag/v1.1.0)
+
+---
+
+## Start Here
+
+- [Latest published entrypoint](docs/LATEST.md)
+- [G3ROG-DARK machine page](docs/machines/g3rog-dark/README.md)
+- [G3ROG-DARK friends showcase HTML](docs/machines/g3rog-dark/exports/G3ROG-DARK-showcase-spec-2026-05-08.html)
+- [G3ROG-DARK detailed internal HTML](docs/machines/g3rog-dark/exports/G3ROG-DARK-actual-spec-2026-05-08.html)
+- [Documentation hub](docs/README.md)
+- [Visual gallery](docs/GALLERY.md)
+
+![G3ROG-DARK social preview](assets/social/g3rog-dark-social-preview-2026-05-08.jpg)
 
 ---
 
 ## Snapshot Notice
 
-This repo is a **published system snapshot**, not a live telemetry feed.
-The current published snapshot was refreshed on **April 16, 2026**.
-The downloadable PDF in `docs/` was regenerated from the same 2026 markdown snapshot.
-The current packaged release is [`v1.1.0`](https://github.com/ThatGuySM/g3ROG-actual/releases/tag/v1.1.0).
+This repo is a **published system snapshot and build journal**, not a live telemetry feed.
 
-## Latest Audit
+- Current flagship snapshot: **G3ROG-DARK**, captured 2026-05-08 from AIDA64-backed reports and build notes.
+- Historical snapshot: **g3ROG-actual**, refreshed 2026-04-16 before the rebuild path began.
+- Future expansion: the rebuilt hand-me-down machine can live beside these as its own machine page once its final call sign and parts list settle.
 
-- [Latest audit entrypoint](docs/LATEST.md)
-- [Documentation hub](docs/README.md)
-- [System health report](docs/g3ROG-actual_System_Health_Report.md)
-- [PDF report](docs/g3ROG-actual_System_Health_Report.pdf)
-- [Battlestation spec sheet](docs/g3ROG-actual_Battlestation_Spec_Sheet.md)
-- [Visual gallery](docs/GALLERY.md)
-- [BIOS profile notes](bios/g3rog_actual_bios_full_profile.md)
+Keep public pages share-safe. Raw reports, serial numbers, MAC addresses, UUIDs, local IPs, private domains, and other private identifiers should stay out of published docs.
 
----
+## Machine Roster
 
-## Table of Contents
+| Machine | Role | Status | Start |
+| --- | --- | --- | --- |
+| [G3ROG-DARK](docs/machines/g3rog-dark/README.md) | Current flagship / daily driver | Active | 2026-05-08 |
+| [g3ROG-actual](docs/machines/g3rog-actual/README.md) | Previous flagship snapshot | Retired / parts donor | 2026-04 snapshot |
+| [Next rebuild](docs/machines/son-pc/README.md) | Son's rebuilt PC | Pending final inventory | TBD |
 
-- [Latest Audit](#latest-audit)
-- [Repository Layout](#repository-layout)
-- [Visual Proof](#visual-proof)
-- [Update Flow](#update-flow)
-- [System Summary](#system-summary)
-- [CPU & Motherboard](#cpu--motherboard)
-- [Memory](#memory)
-- [Graphics & Displays](#graphics--displays)
-- [Storage](#storage)
-- [Network](#network)
-- [Sensors](#sensors)
-- [Benchmarks (AIDA64)](#benchmarks-aida64)
-- [Observed Resident Apps](#observed-resident-apps)
-- [Security](#security)
-- [Final Takeaway](#final-takeaway)
+## Current Flagship Summary
 
----
+| Component | G3ROG-DARK |
+| --- | --- |
+| CPU | AMD Ryzen 7 9850X3D, 8 cores / 16 threads |
+| Motherboard | ASUS ROG Crosshair X870E Dark Hero |
+| GPU | ASUS ROG Astral GeForce RTX 5090 O32G White |
+| Memory | 64GB Corsair Dominator Titanium DDR5, observed DDR5-6200 |
+| Storage | 2x Crucial T705 Gen5 NVMe + 2x Samsung 860 EVO 2TB SATA SSD |
+| Cooling | ASUS ROG Ryujin III 360 ARGB AIO |
+| PSU | Corsair HX1500i Platinum 1500W |
+| Displays | 2x LG UltraGear 49-inch class + 2x Sceptre P30 ultrawides |
+| Network | 10GbE active, 5GbE and Wi-Fi 7 available |
 
 ## Repository Layout
 
-- `docs/`: published reports, spec sheets, templates, and latest-audit navigation
+- `docs/`: public documentation hub, latest entrypoint, machine pages, and archived reports
+- `docs/machines/`: per-machine pages, specs, exports, and snapshots
+- `assets/`: banners, gallery images, social preview assets, and visual proof
 - `benchmarks/`: benchmark exports and summaries
-- `logs/`: sanitized diagnostic or monitoring logs
 - `bios/`: BIOS tuning notes and profile references
-- `scripts/`: repo setup, release, and validation helpers
-
----
-
-## Visual Proof
-
-These images are lightweight proof artifacts supporting the current April 16, 2026 published snapshot.
-The full gallery lives in [docs/GALLERY.md](docs/GALLERY.md).
-
-### Battlestation
-
-![g3ROG-actual battlestation photo from 2026-04-16](assets/gallery/g3rog-actual_2026-04-16.jpeg)
-
-The gallery also includes a downloadable motion clip of the same setup view.
-
-| Desktop throughput snapshot | Gateway throughput snapshot |
-| --- | --- |
-| ![Desktop Speedtest.net result from 2026-04-15](assets/gallery/desktop_speedtest_2026-04-15.png) | ![eero Max 7 gateway speed test from 2026-04-15](assets/gallery/eero_gateway_speedtest_2026-04-15.png) |
-
----
+- `logs/`: sanitized diagnostic or monitoring logs
+- `scripts/`: repo setup, audit, release, export, and validation helpers
 
 ## Update Flow
 
-This repo is maintained as a repeatable audit workflow, not a one-time export dump.
-
-1. Collect a fresh local inventory with `pwsh ./scripts/collect_system_audit.ps1`.
-2. Scaffold or revise the next report with `pwsh ./scripts/new_audit_report.ps1 -SnapshotDate YYYY-MM-DD`.
-3. Publish the markdown snapshot, regenerate the PDF, and archive the superseded report.
-4. Run `pwsh ./scripts/validate_repo.ps1` before pushing or tagging a release.
-
----
-
-## System Summary
-
-- **Computer:** g3ROG-actual  
-- **OS:** Windows 11 Enterprise 10.0.26200.8246 (Win11 25H2 2025 Update)  
-- **DirectX:** 12.0  
-- **User/Domain:** Redacted in published snapshot  
-
-## CPU & Motherboard
-
-- **CPU:** AMD Ryzen 7 9800X3D – observed at 5.425 GHz in AIDA64  
-- **Board:** ASUS ROG Strix B650E-F Gaming WiFi  
-- **Chipset:** AMD B650E / K1A.4 FCH / K1A.4 IMC  
-- **BIOS:** AMI firmware dated 03/11/2026, board update completed 04/16/2026 and restored from saved profile backup  
-
-## Memory
-
-- **Total:** 64 GB DDR5 (Corsair Dominator Titanium RGB)  
-- **Effective Speed:** Dual DDR5-6000, 30-36-36-76 CR1  
-
-## Graphics & Displays
-
-- **Discrete GPU:** NVIDIA GeForce RTX 5090 (32607 MB), ASUS ROG Astral variant  
-- **Integrated GPU:** AMD Radeon(TM) Graphics (2 GB)  
-- **Monitors:** 2× LG UltraGear 49GR85DC-B 49-inch ultrawides, 2× Sceptre C305B-200UN1 30-inch ultrawides  
-
-## Storage
-
-- Crucial T705 1 TB (Gen5 NVMe)  
-- Crucial T705 2 TB (Gen5 NVMe)  
-- Samsung 860 EVO 2 TB ×2 (SATA SSD)  
-- **Total:** 6519.8 GB formatted local storage, SMART status OK  
-
-## Network
-
-- **Provider:** Frontier  
-- **Desktop Test:** 2347.18 Mbps down / 2224.44 Mbps up  
-- **Router Test:** 2.36 Gbps down / 2.55 Gbps up on the eero Max 7 gateway  
-- **Ping:** 6 ms (Secaucus, NJ)  
-
-## Sensors
-
-- **CPU:** 44 C, CPU diode 56 C, package 55 C  
-- **GPU:** RTX 5090 core 38 C, memory 48 C  
-- **RAM:** 44 C / 43 C across the DIMMs  
-- **Storage:** 51 C on the 2 TB T705, 35 C on the 1 TB T705, 28 C on both Samsung SATA SSDs  
-- **Fans:** CPU 1076 RPM, Chassis 665 RPM, AIO Pump 1737 RPM, RTX 5090 fans at 0 RPM while idle  
-- **Voltages:** +12 V 11.922, +5 V 5.078, +3.3 V 3.313 → stable  
-
-## Benchmarks (AIDA64)
-
-- **Memory:** Read 63748 MB/s, Write 85000 MB/s, Copy 61203 MB/s, Latency 80.8 ns  
-- **CPU:** ZLib 1458.2 MB/s, AES 86596 MB/s, SHA3 5595 MB/s  
-- **FPU:** Mandel 120774 it/s, FP32 Ray-Trace 49594 KRay/s, FP64 Ray-Trace 27022 KRay/s  
-
-## Observed Resident Apps
-
-- Observed resident apps during capture included Adobe Acrobat/GC sync, AMD Noise Suppression, Corsair iCUE, Logitech G Hub, OneDrive, Slack, Notion, Signal, SteelSeries GG, and Elgato Stream Deck.  
-- **Note:** This is a runtime/app-presence snapshot, not a startup-folder inventory.  
-
-## Security
-
-- **Windows Update:** Latest detected hotfix `KB5086672`, installed 2026-04-08.  
-- **Antivirus:** Windows Defender 4.18.26030.3011 reported current on 2026-04-15.  
-
----
+1. Decide whether the update belongs to the active machine, a historical machine, or a new machine page.
+2. Collect fresh local inventory with `pwsh ./scripts/collect_system_audit.ps1` when a live audit is needed.
+3. Publish share-safe summaries in `docs/machines/<machine>/`.
+4. Keep detailed exports near the machine they describe, preferably under `exports/` or `snapshots/YYYY-MM-DD/`.
+5. Run `pwsh ./scripts/validate_repo.ps1` before pushing or tagging.
 
 ## Final Takeaway
 
-**g3ROG-actual is a high-end gaming and creator battlestation running fast, stable, and well-tuned after its April 16, 2026 BIOS update.**  
-The published markdown and PDF now align to the same April 16, 2026 snapshot.
+**g3ROG is now a living build record, not just a single PC snapshot.** G3ROG-DARK gets the spotlight, g3ROG-actual keeps its receipts, and the next rebuild has a clean place to land.
