@@ -19,6 +19,7 @@ The current flagship is **G3ROG-DARK**, a May 2026 Dark Hero / RTX 5090 build. T
 
 ## Start Here
 
+- [G3ROG web showcase](https://thatguysm.github.io/g3ROG/)
 - [Latest published entrypoint](docs/LATEST.md)
 - [G3ROG-DARK machine page](docs/machines/g3rog-dark/README.md)
 - [G3ROG-DARK friends showcase HTML](docs/machines/g3rog-dark/exports/G3ROG-DARK-showcase-spec-2026-05-08.html)
