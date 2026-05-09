@@ -27,3 +27,4 @@ build/
 
 # Local archive/scratch folders
 **/.trash/
+cleanup/
