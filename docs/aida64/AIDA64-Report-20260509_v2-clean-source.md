@@ -104,7 +104,7 @@ The report clearly shows **CPU #1 through CPU #16**, which is the cleanest confi
 | UAC | Enabled |
 | DEP / NX | Supported by OS and CPU; active for applications and drivers |
 
-**Not shown in report:** a clean, user-friendly “Virtualization enabled in firmware” field.  
+**Not shown in report:** a clean, user-friendly “Virtualization enabled in firmware” field.
 **Shown in report:** CPUID reports **Hypervisor Present**, which means a Windows hypervisor layer is active and some low-level virtualization capability flags may be masked in this capture.
 
 ## Memory and Performance
@@ -302,7 +302,7 @@ These are snapshot telemetry values from board / device sensors.
 | +12 V rail | 11.891 V |
 | RTX 12VHPWR voltage | 12.085 V |
 
-**PSU model:** Not shown in report.  
+**PSU model:** Not shown in report.
 **Telemetry note:** the report exposes useful live power and voltage data, but it does **not** identify the retail PSU model.
 
 ### Stability / Validation Notes
@@ -353,10 +353,10 @@ Still worth validating under real load:
 Use this sanitized Markdown file as the source-of-truth input for repo documentation work.
 
 - Update `README.md`
-- Update `docs/g3ROG-DARK-spec.md`
-- Update `docs/g3ROG-DARK-spec.html`
-- Update `docs/bios-settings.md`
-- Update `docs/stability-validation.md`
+- Update `docs/machines/g3rog-dark/specs/`
+- Update `docs/machines/g3rog-dark/exports/`
+- Update `docs/machines/g3rog-dark/bios-settings.md`
+- Update `docs/machines/g3rog-dark/validation/`
 - Create or update `docs/aida64/README.md`
 - Remove or replace stale references to **Ryzen 7 9800X3D** if the current build is now **Ryzen 7 9850X3D**
 - Confirm no raw AIDA reports, serial numbers, MAC addresses, UUIDs, or Windows profile paths are committed

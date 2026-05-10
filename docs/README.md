@@ -8,6 +8,11 @@ If you are visiting for the first time, start with `LATEST.md`.
 - [Latest published entrypoint](LATEST.md)
 - [Machine index](machines/README.md)
 - [G3ROG-DARK machine page](machines/g3rog-dark/README.md)
+- [G3ROG-DARK current spec](machines/g3rog-dark/specs/G3ROG-DARK-current-spec-2026-05-09.md)
+- [G3ROG-DARK current spec HTML](machines/g3rog-dark/exports/G3ROG-DARK-current-spec-2026-05-09.html)
+- [G3ROG-DARK BIOS settings](machines/g3rog-dark/bios-settings.md)
+- [G3ROG-DARK stability validation](machines/g3rog-dark/validation/stability-validation-2026-05-09.md)
+- [AIDA64 source notes](aida64/README.md)
 - [G3ROG-DARK friends showcase HTML](machines/g3rog-dark/exports/G3ROG-DARK-showcase-spec-2026-05-08.html)
 - [G3ROG-DARK detailed actual HTML](machines/g3rog-dark/exports/G3ROG-DARK-actual-spec-2026-05-08.html)
 - [Visual gallery](GALLERY.md)
@@ -26,7 +31,8 @@ If you are visiting for the first time, start with `LATEST.md`.
 - `drafts/`: in-progress report drafts that have not been published yet
 - `archive/`: older reports and retired published snapshots
 - `templates/`: reusable templates for future report updates
-- root of `docs/`: stable docs, galleries, historical reports, and entrypoints
+- `aida64/`: sanitized AIDA64-derived source summaries and privacy notes
+- root of `docs/`: stable docs, current spec, BIOS settings, stability plan, galleries, historical reports, and entrypoints
 
 ## Publishing Flow
 
